@@ -13,7 +13,7 @@ educational_grant, expenses = 10000, 12000
 
 i = 0
 money = 2000
-while i < 10:
+while i < 9:
     expenses = expenses + expenses * 0.03
     bill = expenses - educational_grant
     money = money + bill
