@@ -11,4 +11,11 @@
 
 educational_grant, expenses = 10000, 12000
 
-# TODO здесь ваш код
+i = 0
+money = 2000
+while i < 10:
+    expenses = expenses + expenses * 0.03
+    bill = expenses - educational_grant
+    money = money + bill
+    i += 1
+print(money)
